@@ -9,8 +9,10 @@ class Login extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Center(
-        child: Padding(padding: const EdgeInsets.only(left: 50, right: 50, top: 200),
+        child: Padding(padding: const EdgeInsets.only(left: 50, right: 50),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+
           children: [
             const Padding(
               padding: EdgeInsets.only(bottom: 10),
@@ -18,7 +20,7 @@ class Login extends StatelessWidget {
                 'Welcome, Sign In',
                 style: TextStyle(
                   fontSize: 30,
-                  fontFamily: 'Lobster'
+                  fontFamily: 'Lobster',
                 ),
               ),
             ),
